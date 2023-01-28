@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -51,12 +51,12 @@
 {% endif %}
 
 <form method="post" action="/predict">
-    <input type="text" name="pm10">
-    <input type="text" name="pm25">
-    <input type="text" name="so2">
-    <input type="text" name="co">
-    <input type="text" name="o3">
-    <input type="text" name="no2">
+    <input type="text" id="pm10" name="pm10">PM10
+    <input type="text" id="pm25" name="pm25">PM2.5
+    <input type="text" id="so2" name="so2">SO2
+    <input type="text" id="co"  name="co">CO
+    <input type="text" id="o3" name="o3">O3
+    <input type="text" id="no2" name="no2">NO2
 
     <button type="submit">Prediksi</button>
 </form>
